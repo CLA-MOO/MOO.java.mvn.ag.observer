@@ -1,21 +1,21 @@
 # Proyecto (Maven) - StockMarket
 
-**Observer Design Pattern Assignment**
+**Asignación del Patrón de Diseño Observer**
 
-This assignment will give you practice in using the Observer Design Pattern.
+Esta asignación te dará práctica en el uso del Patrón de Diseño Observer.
 
-Consider a stock trading system whereby there is a stock market that keeps track of all trades of specific stocks (subjects) and must inform all traders (observers) when a new trade has been made for a certain stock. Stocks are distinguished by short acronyms (i.e. MSFT, GOOG, AAPL. A trade of a specific stock can be either a buy or sell and it occurs at a certain price. Each stock subject will maintain a list of all traders registered with it and will notify each registered trader when a trade has been made for that specific stock.
+Considera un sistema de comercio de acciones en el que hay un mercado de valores que realiza un seguimiento de todas las operaciones de acciones específicas (sujetos) y debe informar a todos los traders (observadores) cuando se ha realizado una nueva operación para una determinada acción. Las acciones se distinguen por acrónimos cortos (por ejemplo, MSFT, GOOG, AAPL). Una operación de una acción específica puede ser una compra o venta y ocurre a un precio determinado. Cada sujeto acción mantendrá una lista de todos los traders registrados con ella y notificará a cada trader registrado cuando se haya realizado una operación para esa acción específica.
 
-Design the Trader class (which implements the Observer interface)
-Design the Stock class (which implements the Subject interface)
+Diseña la clase Trader (que implementa la interfaz Observer)
+Diseña la clase Stock (que implementa la interfaz Subject)
 
-Write some test code that creates a StockMarket as well as 3-4 Stock objects. Create 3-4 Trader objects. Have the stock market register each trader with a few stocks and then have the traders make trades for those stocks. Remember trades are either a buy or sell and occur at a certain price. Make sure your test code illustrates how each trader is notified when a trade for the stock(s) they are registered for is made. A Trader can own many stocks. A stock can be owned by many Traders. This is very important to the design of the project.
+Escribe código de prueba que cree un StockMarket así como 3-4 objetos Stock. Crea 3-4 objetos Trader. Haz que el mercado de valores registre cada trader con algunas acciones y luego haz que los traders realicen operaciones para esas acciones. Recuerda que las operaciones son compra o venta y ocurren a un precio determinado. Asegúrate de que tu código de prueba ilustre cómo cada trader es notificado cuando se realiza una operación para las acciones con las que están registrados. Un Trader puede poseer muchas acciones. Una acción puede ser propiedad de muchos Traders. Esto es muy importante para el diseño del proyecto.
 
-Each stock will have its own list of observers. You will probably have to add the observers to each stock separately from their constructor. 
+Cada acción tendrá su propia lista de observadores. Probablemente tendrás que agregar los observadores a cada acción por separado de su constructor. 
 
-The output must have not only the trader’s name and amount, it must indicate the stock symbol and the transaction type (buy or sell).
+La salida debe tener no solo el nombre del trader y la cantidad, sino que también debe indicar el símbolo de la acción y el tipo de transacción (compra o venta).
 
-Here’s some sample output:
+Aquí hay un ejemplo de salida:
 
 * *The latest trade is Trader: Julie sell $160.0 Stock: MSFT*
 
