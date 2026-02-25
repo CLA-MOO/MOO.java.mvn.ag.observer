@@ -54,6 +54,30 @@ El repositorio está configurado para crear Diagramas de clases UML con ```draw.
 
 Para más información consulta el [MarketPlace](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio).
 
+## Versión de Java
+
+Verifica que tengas la versión adecuada de Java para trabajar con Maven. En caso de requerir una versión especial, usa los siguientes comandos.
+
+### Verificar versión actual
+```
+java --version
+```
+### Verificar versiones disponibles para instalar
+```
+sdk list java
+```
+### Instalar la última versión
+```
+sdk install java
+```
+### Instalar una versión específica
+```
+sdk install java xxx-version
+```
+Ejemplo:
+```
+sdk install java 17.0.18-ms
+```
 ## Uso del proyecto con Maven
 
 ### Compilar
