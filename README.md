@@ -1,5 +1,7 @@
 # Proyecto (Maven) - StockMarket
 
+![Piso de operaciones de la Bolsa de Valores](https://upload.wikimedia.org/wikipedia/commons/6/68/No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg)
+
 **Asignación del Patrón de Diseño Observer**
 
 Esta asignación te dará práctica en el uso del Patrón de Diseño Observer.
